@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Buku Tamu Digital
+        </h1>
+        <p>selamat datang</p>
+    </header>
+    <main>
+        <section>
+            <h2>formulir</h2>
+            <form id="form">
+                <ul>
+                    <label for="nama">nama lengkap </label>
+                    <input type="text"id="nama">
+                </ul>
+                <ul>
+                    <label for="asal">Instansi/Asal</label>
+                    <input type="text" id="asal">
+                </ul>
+                <ul>
+                    <label for="tujuan">tujuan kunjungan</label>
+                    <select name="tujuan" id="tujuan">
+                        <option value="">tujuan anda</option>
+                        <option value="rapat">rapat</option>
+                        <option value="penelitian">penelitian</option>
+                        <option value="kunjungan kerja">kunjungan kerja</option>
+                     </select>
+                </ul>
+                <ul>
+                    <label for="catatan">catatan/pesan</label>
+                    <textarea name="catatan" id="catatan">catatan/pesan</textarea>
+                </ul>
+                <ul>
+                    <button type="submit">simpan</button>
+                </ul>
+            </form>
+        </section>
+
+        <section>
+            <h2> Data Tamu </h2>
+         <table id="table" border="2">
+        <thead>
+            <tr>
+                <th>Nomor</th>
+                <th>Nama lengkap</th>
+                <th>Instansi/asal</th>
+                <th>tujuan</th>
+                <th>catatan/pesan</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Buku Tamu Digital</p>
+    </footer>
+
+
+
+        <script src="script.js"></script>
+</body>
+</html>
